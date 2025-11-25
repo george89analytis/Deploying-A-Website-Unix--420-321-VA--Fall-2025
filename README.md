@@ -1,4 +1,4 @@
-# Meet our workers for this project!:
+# Meet the group for this project!:
 * Samuel Gelinas
 * Shayne Uzan
 * George Analytis
