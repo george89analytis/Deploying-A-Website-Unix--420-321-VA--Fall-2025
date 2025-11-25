@@ -20,4 +20,6 @@ So the goal for this project is to essentially set up a Linux based web server h
 * configuring GitHub actions for automatic deployment
 
 # What does our GitHub repository contain?:
-So our GitHub repository includes 
+So our GitHub repository includes the following files:
+* CHOICES.md ---> this showcases the tools we used for this project and also includes reasoning to why we use it.
+* INSTALL.md ---> 
