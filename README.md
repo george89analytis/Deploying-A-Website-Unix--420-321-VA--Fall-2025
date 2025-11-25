@@ -18,3 +18,6 @@ So the goal for this project is to essentially set up a Linux based web server h
 * NGINX successfully running in a container
 * a GitHub repository containing website code
 * configuring GitHub actions for automatic deployment
+
+# What does our GitHub repository contain?:
+So our GitHub repository includes 
