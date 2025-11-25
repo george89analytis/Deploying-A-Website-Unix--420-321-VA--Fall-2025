@@ -1,8 +1,11 @@
 Why OVH?
---> its cheap, reliable and gives full control of our Linux server system.
+--> OVH is affordable, reliable and provides full control over our Linux server system.
+
 Why NGINX?
---> NGINX is very fast, lightweight and ideal for dealing with websites.
+--> NGINX is very fast, lightweight and ideal for serving web content effienctly websites.
+
 Why Containers?
---> Containers are protable, very good consistentse and run the same as on any system.
-why GitHub Actions
---> GitHub Action automates deployment with out doing in manuly so all updates go live in a instant when you push so it makes it very fast.
+--> Containers are portable, consistent across environements and runs the same as on any system.
+
+Why GitHub Actions
+--> GitHub Action automates deployment with out doing in manualy so all updates/changes go live in a instant when you push which makes it very fast and easy
