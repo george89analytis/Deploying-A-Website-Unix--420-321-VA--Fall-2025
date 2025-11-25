@@ -22,4 +22,6 @@ So the goal for this project is to essentially set up a Linux based web server h
 # What does our GitHub repository contain?:
 So our GitHub repository includes the following files:
 * CHOICES.md ---> this showcases the tools we used for this project and also includes reasoning to why we use it.
-* INSTALL.md ---> 
+* INSTALL.md ---> this file includes the the instructions needed/required to use our project
+Our Github repository also includes our License. For more info on this, please refer to our License which can be found at: [LICENSE](./LICENSE)
+
