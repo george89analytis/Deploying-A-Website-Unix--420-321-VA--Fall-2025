@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What You'll Learn - Discover Linux with Tiago</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">$ Linux</a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Tiago</a></li>
+                <li><a href="why-linux.html">Why Linux?</a></li>
+                <li><a href="skills.html" class="active">Skills</a></li>
+                <li><a href="careers.html">Careers</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 class="terminal-text">$ what you'll learn</h1>
+                <p class="subtitle">Hands-On Skills for Real-World IT</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <div class="intro-box">
+                    <p class="lead-text">
+                        This course focuses on practical, hands-on skills that you'll use every day in IT careers. 
+                        You'll learn by doing, building confidence with each command and concept.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h2>📁 Terminal & File Management</h2>
+                        <ul class="skill-list">
+                            <li>Navigating the filesystem with <code>cd</code>, <code>ls</code>, <code>pwd</code></li>
+                            <li>Copying, moving, and deleting files</li>
+                            <li>Creating and managing directories</li>
+                            <li>Understanding file paths and structures</li>
+                            <li>Using text editors (nano, vim)</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h2>👥 User & Permission Management</h2>
+                        <ul class="skill-list">
+                            <li>Creating and managing user accounts</li>
+                            <li>Understanding file permissions (read, write, execute)</li>
+                            <li>Using <code>chmod</code>, <code>chown</code>, and <code>chgrp</code></li>
+                            <li>Working with groups and access control</li>
+                            <li>Managing sudo privileges</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h2>📦 Package Management</h2>
+                        <ul class="skill-list">
+                            <li>Installing software with package managers</li>
+                            <li>Using <code>apt</code> (Debian/Ubuntu) or <code>yum</code>/<code>dnf</code> (Red Hat/CentOS)</li>
+                            <li>Updating system packages</li>
+                            <li>Searching for available software</li>
+                            <li>Managing software repositories</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h2>🌐 Networking & Remote Access</h2>
+                        <ul class="skill-list">
+                            <li>Understanding network configuration</li>
+                            <li>Using SSH for secure remote access</li>
+                            <li>Configuring network interfaces</li>
+                            <li>Testing connectivity with <code>ping</code>, <code>curl</code>, <code>wget</code></li>
+                            <li>Working with firewalls and network security</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h2>⚙️ System Administration</h2>
+                        <ul class="skill-list">
+                            <li>Managing system services with <code>systemd</code></li>
+                            <li>Monitoring system resources</li>
+                            <li>Viewing and managing processes</li>
+                            <li>Understanding system logs</li>
+                            <li>Configuring web servers (NGINX/Apache)</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h2>🤖 Automation & Scripting</h2>
+                        <ul class="skill-list">
+                            <li>Writing bash scripts for automation</li>
+                            <li>Using variables, loops, and conditionals</li>
+                            <li>Scheduling tasks with <code>cron</code> jobs</li>
+                            <li>Creating reusable automation tools</li>
+                            <li>Streamlining repetitive tasks</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="tools-section">
+                    <h2>Tools & Technologies You'll Master</h2>
+                    <div class="tools-grid">
+                        <div class="tool-badge">Bash</div>
+                        <div class="tool-badge">SSH</div>
+                        <div class="tool-badge">systemd</div>
+                        <div class="tool-badge">Permissions</div>
+                        <div class="tool-badge">Cron Jobs</div>
+                        <div class="tool-badge">NGINX</div>
+                        <div class="tool-badge">Apache</div>
+                        <div class="tool-badge">apt/yum/dnf</div>
+                        <div class="tool-badge">Vim/Nano</div>
+                        <div class="tool-badge">grep</div>
+                        <div class="tool-badge">sed/awk</div>
+                        <div class="tool-badge">Git</div>
+                    </div>
+                </div>
+
+                <div class="example-section">
+                    <h2>Try It Out: Interactive Terminal</h2>
+                    <p style="text-align: center; color: var(--text-muted); margin-bottom: 1rem;">
+                        Type commands below to see simulated Linux terminal output. Try: <code>ls</code>, <code>pwd</code>, <code>whoami</code>, <code>date</code>, <code>help</code>
+                    </p>
+                    <div class="terminal-example interactive-terminal">
+                        <div class="terminal-header">
+                            <span class="terminal-dot"></span>
+                            <span class="terminal-dot"></span>
+                            <span class="terminal-dot"></span>
+                            <span class="terminal-title">interactive-terminal</span>
+                        </div>
+                        <div class="terminal-content" id="terminal-output">
+                            <p class="terminal-line">Welcome to the Linux Terminal Simulator!</p>
+                            <p class="terminal-line">Type <code>help</code> to see available commands.</p>
+                            <p class="terminal-line"><span class="prompt">$</span> <span class="command"></span></p>
+                        </div>
+                        <div class="terminal-input-container">
+                            <span class="prompt">$</span>
+                            <input type="text" id="terminal-input" class="terminal-input" autocomplete="off" spellcheck="false" placeholder="Type a command and press Enter...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Created by George • Vanier College • 2025</p>
+        </div>
+    </footer>
+
+    <script>
+        // Interactive Terminal Simulator
+        (function() {
+            const terminalInput = document.getElementById('terminal-input');
+            const terminalOutput = document.getElementById('terminal-output');
+            let currentDir = '~';
+            let commandHistory = [];
+            let historyIndex = -1;
+
+            // Simulated file system
+            const fileSystem = {
+                '~': {
+                    type: 'directory',
+                    contents: ['Documents', 'Downloads', 'Desktop', 'scripts', 'projects']
+                },
+                '~/Documents': {
+                    type: 'directory',
+                    contents: ['linux-notes.txt', 'course-material.pdf']
+                },
+                '~/Downloads': {
+                    type: 'directory',
+                    contents: ['ubuntu-22.04.iso', 'linux-handbook.pdf']
+                },
+                '~/scripts': {
+                    type: 'directory',
+                    contents: ['backup.sh', 'update.sh', 'deploy.sh']
+                }
+            };
+
+            // Command handlers
+            const commands = {
+                'help': () => {
+                    return `Available commands:
+  ls, ls -l, ls -la    - List directory contents
+  pwd                  - Print working directory
+  cd <directory>       - Change directory
+  whoami               - Display current user
+  date                 - Display current date and time
+  echo <text>          - Display text
+  cat <file>           - Display file contents
+  mkdir <name>         - Create directory
+  touch <file>         - Create empty file
+  clear                - Clear terminal
+  history              - Show command history
+  help                 - Show this help message`;
+                },
+                'ls': (args) => {
+                    const dir = currentDir === '~' ? '~' : currentDir;
+                    const contents = fileSystem[dir]?.contents || [];
+                    return contents.join('  ');
+                },
+                'ls -l': (args) => {
+                    const dir = currentDir === '~' ? '~' : currentDir;
+                    const contents = fileSystem[dir]?.contents || [];
+                    return contents.map(item => {
+                        const isDir = fileSystem[`${dir}/${item}`]?.type === 'directory';
+                        const perms = isDir ? 'drwxr-xr-x' : '-rw-r--r--';
+                        const size = isDir ? '4096' : Math.floor(Math.random() * 10000);
+                        return `${perms}  1 user  staff  ${size}  Dec  4 17:00  ${item}`;
+                    }).join('\n');
+                },
+                'ls -la': (args) => {
+                    const dir = currentDir === '~' ? '~' : currentDir;
+                    const contents = fileSystem[dir]?.contents || [];
+                    const all = ['.', '..', ...contents];
+                    return all.map(item => {
+                        const isDir = item === '.' || item === '..' || fileSystem[`${dir}/${item}`]?.type === 'directory';
+                        const perms = isDir ? 'drwxr-xr-x' : '-rw-r--r--';
+                        const size = isDir ? '4096' : Math.floor(Math.random() * 10000);
+                        return `${perms}  1 user  staff  ${size}  Dec  4 17:00  ${item}`;
+                    }).join('\n');
+                },
+                'pwd': () => {
+                    return currentDir;
+                },
+                'cd': (args) => {
+                    if (!args || args.length === 0) {
+                        currentDir = '~';
+                        return '';
+                    }
+                    const target = args[0];
+                    if (target === '~' || target === '..') {
+                        currentDir = '~';
+                        return '';
+                    }
+                    const newPath = currentDir === '~' ? `~/${target}` : `${currentDir}/${target}`;
+                    if (fileSystem[newPath]?.type === 'directory') {
+                        currentDir = newPath;
+                        return '';
+                    }
+                    return `cd: ${target}: No such file or directory`;
+                },
+                'whoami': () => {
+                    return 'student';
+                },
+                'date': () => {
+                    return new Date().toString();
+                },
+                'echo': (args) => {
+                    return args ? args.join(' ') : '';
+                },
+                'cat': (args) => {
+                    if (!args || args.length === 0) {
+                        return 'cat: missing file operand';
+                    }
+                    const filename = args[0];
+                    const filePath = currentDir === '~' ? `~/${filename}` : `${currentDir}/${filename}`;
+                    if (filename === 'linux-notes.txt') {
+                        return `Linux Notes
+===========
+- Linux is an open-source operating system
+- Most servers run on Linux
+- Learning Linux opens many career opportunities
+- Practice makes perfect!`;
+                    }
+                    if (filename === 'backup.sh') {
+                        return `#!/bin/bash
+# Backup script
+echo "Starting backup..."
+tar -czf backup.tar.gz /home/user/documents
+echo "Backup complete!"`;
+                    }
+                    return `cat: ${filename}: No such file or directory`;
+                },
+                'mkdir': (args) => {
+                    if (!args || args.length === 0) {
+                        return 'mkdir: missing operand';
+                    }
+                    const dirname = args[0];
+                    const newPath = currentDir === '~' ? `~/${dirname}` : `${currentDir}/${dirname}`;
+                    if (!fileSystem[newPath]) {
+                        fileSystem[newPath] = { type: 'directory', contents: [] };
+                        const parent = fileSystem[currentDir === '~' ? '~' : currentDir];
+                        if (parent) {
+                            parent.contents.push(dirname);
+                        }
+                        return '';
+                    }
+                    return `mkdir: cannot create directory '${dirname}': File exists`;
+                },
+                'touch': (args) => {
+                    if (!args || args.length === 0) {
+                        return 'touch: missing file operand';
+                    }
+                    const filename = args[0];
+                    const parent = fileSystem[currentDir === '~' ? '~' : currentDir];
+                    if (parent && !parent.contents.includes(filename)) {
+                        parent.contents.push(filename);
+                    }
+                    return '';
+                },
+                'clear': () => {
+                    terminalOutput.innerHTML = '';
+                    addOutput('', true);
+                    return null; // Special flag to clear
+                },
+                'history': () => {
+                    if (commandHistory.length === 0) {
+                        return 'No commands in history';
+                    }
+                    return commandHistory.map((cmd, idx) => `${idx + 1}  ${cmd}`).join('\n');
+                }
+            };
+
+            function addOutput(text, isCommand = false) {
+                const line = document.createElement('p');
+                line.className = 'terminal-line';
+                if (isCommand) {
+                    line.innerHTML = `<span class="prompt">$</span> <span class="command">${text}</span>`;
+                } else {
+                    line.textContent = text;
+                    line.style.color = 'var(--text-light)';
+                }
+                terminalOutput.appendChild(line);
+            }
+
+            function executeCommand(input) {
+                if (!input.trim()) {
+                    addOutput('', true);
+                    return;
+                }
+
+                commandHistory.push(input);
+                historyIndex = commandHistory.length;
+
+                const parts = input.trim().split(/\s+/);
+                const cmd = parts[0].toLowerCase();
+                const args = parts.slice(1);
+
+                addOutput(input, true);
+
+                // Handle command aliases
+                let commandKey = cmd;
+                if (cmd === 'ls' && args.includes('-l') && args.includes('-a')) {
+                    commandKey = 'ls -la';
+                } else if (cmd === 'ls' && args.includes('-l')) {
+                    commandKey = 'ls -l';
+                } else if (cmd === 'ls' && args.includes('-a')) {
+                    commandKey = 'ls -la';
+                }
+
+                if (commands[commandKey]) {
+                    const result = commands[commandKey](args);
+                    if (result === null) {
+                        // Clear command - already handled
+                        setTimeout(() => {
+                            terminalOutput.scrollTop = terminalOutput.scrollHeight;
+                        }, 0);
+                        return;
+                    }
+                    if (result !== '') {
+                        addOutput(result);
+                    }
+                } else {
+                    addOutput(`Command not found: ${cmd}. Type 'help' for available commands.`);
+                }
+
+                // Add new prompt
+                addOutput('', true);
+                setTimeout(() => {
+                    terminalOutput.scrollTop = terminalOutput.scrollHeight;
+                }, 0);
+            }
+
+            terminalInput.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter') {
+                    const input = terminalInput.value;
+                    executeCommand(input);
+                    terminalInput.value = '';
+                } else if (e.key === 'ArrowUp') {
+                    e.preventDefault();
+                    if (historyIndex > 0) {
+                        historyIndex--;
+                        terminalInput.value = commandHistory[historyIndex];
+                    }
+                } else if (e.key === 'ArrowDown') {
+                    e.preventDefault();
+                    if (historyIndex < commandHistory.length - 1) {
+                        historyIndex++;
+                        terminalInput.value = commandHistory[historyIndex];
+                    } else {
+                        historyIndex = commandHistory.length;
+                        terminalInput.value = '';
+                    }
+                }
+            });
+
+            // Focus on input when clicking terminal
+            document.querySelector('.interactive-terminal').addEventListener('click', () => {
+                terminalInput.focus();
+            });
+
+            // Initial focus
+            terminalInput.focus();
+        })();
+    </script>
+</body>
+</html>
+
