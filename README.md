@@ -29,5 +29,9 @@ So our GitHub repository includes the following files:
   * GitHub Actions
 * For Information please visit the file: [CHOICES](./CHOICES)  
 
-* INSTALL.md ---> this file includes the the instructions needed/required to use our project
+* INSTALL.md ---> this file includes the instructions needed/required to use our project from:
+  * Installing our project
+  * Setting it up
+  * Manual Deployment Setup
+  * Auto Deoployment Setup
 * Our Github repository also includes our License. For more info on this, please refer to our License which is located at: [LICENSE](./LICENSE)
