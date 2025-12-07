@@ -38,18 +38,17 @@ So our GitHub repository includes the following files:
 * Our Github repository also includes our License(MIT). For more Information, please visit our license at: [LICENSE](./LICENSE)
 
 # Our Project's timeline(TBD)
-* First week:
-  *
-  *
-  *
-* Second week:
-  *
-  *
-  *
-* Third week:
-  *
-  *
-  *
-
+* First Week
+  * 
+  * 
+  * 
+* Second Week:
+  * 
+  * 
+  * 
+* Third Week: 
+  * 
+  * 
+  * 
 
 
