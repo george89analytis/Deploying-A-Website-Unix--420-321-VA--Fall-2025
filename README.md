@@ -35,4 +35,4 @@ So our GitHub repository includes the following files:
   * Manual Deployment Setup
   * Auto Deoployment Setup
 * For more Information, please visit INSTALL.MD at: [INSTALL.md](./INSTALL.md)
-* Our Github repository also includes our License. For more info on this, please refer to our License which is located at: [LICENSE](./LICENSE)
+* Our Github repository also includes our License(MIT). For more Information, please visit our license at: [LICENSE](./LICENSE)
