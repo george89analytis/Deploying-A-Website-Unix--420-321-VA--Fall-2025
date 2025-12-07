@@ -27,12 +27,12 @@ So our GitHub repository includes the following files:
   * The use of NGINX
   * Containers
   * GitHub Actions
-* For more Information, please visit CHOICES.MD at: [CHOICES](./CHOICES)  
+* For more Information, please visit CHOICES.MD at: [CHOICES](./CHOICES.MD)  
 
 * INSTALL.md ---> this file includes the instructions needed/required to use our project from:
   * Installing our project
   * Setting it up
   * Manual Deployment Setup
   * Auto Deoployment Setup
-* For more Information, please visit INSTALL.MD at: [INSTALL](./INSTALL)
+* For more Information, please visit INSTALL.MD at: [INSTALL](./INSTALL.MD)
 * Our Github repository also includes our License. For more info on this, please refer to our License which is located at: [LICENSE](./LICENSE)
