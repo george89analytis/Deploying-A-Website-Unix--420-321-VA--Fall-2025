@@ -36,3 +36,20 @@ So our GitHub repository includes the following files:
   * Auto Deoployment Setup
 * For more Information, please visit INSTALL.MD at: [INSTALL.md](./INSTALL.md)
 * Our Github repository also includes our License(MIT). For more Information, please visit our license at: [LICENSE](./LICENSE)
+
+# Our Project's timeline(TBD)
+* First week:
+ *
+ *
+ *
+* Second week:
+ *
+ *
+ *
+* Third week:
+ *
+ *
+ *
+
+
+
