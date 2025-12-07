@@ -1,7 +1,7 @@
-All Commands in BASH
--INSTALL THE PROJECT-
-Clone the repository
---> git clone https://github.com/username/repository name.git
+# All Commands in BASH
+# -INSTALL THE PROJECT-
+* Clone the repository
+  *  git clone https://github.com/username/repository name.git
 Enter project folder
 --> cd repository name
 -SET UP THE SERVER-
