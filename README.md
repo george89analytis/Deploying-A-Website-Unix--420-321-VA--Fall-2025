@@ -39,13 +39,13 @@ So our GitHub repository includes the following files:
 
 # Our Project's timeline(TBD)
 * First Week
-  * TBD
-  * TBD
-  * TBD
+  * Create our Git Repository with the necessary files needed
+  * Improve the content in files(CHOICES.md, INSTALL.md, ReadMe & License)
+  * Creating and using OVH account
 * Second Week:
-  * TBD
-  * TBD
-  * TBD
+  * Connecting deployed website to our repository
+  * Provided HTML code for the Website's homepage
+  * Improve files such as ReadMe to follow the description of our project
 * Third Week: 
   * TBD
   * TBD
