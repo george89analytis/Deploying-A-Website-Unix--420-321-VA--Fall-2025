@@ -4,9 +4,9 @@
   *  git clone https://github.com/username/repository name.git
 * Enter project folder
   * cd repository name
--SET UP THE SERVER-
-update the server
---> sudo apt update && sudo apt upgrade
+# -SET UP THE SERVER-
+* update the server
+ * sudo apt update && sudo apt upgrade
 install NGINX
 --> sudo apt install nginx
 move your website into NGINX
