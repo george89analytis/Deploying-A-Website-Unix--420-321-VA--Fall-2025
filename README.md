@@ -47,8 +47,7 @@ So our GitHub repository includes the following files:
   * Provided HTML code for the Website's homepage
   * Improve files such as ReadMe to follow the description of our project
 * Third Week: 
-  * TBD
-  * TBD
-  * TBD
+  * Finalyzing/fixing any last issues
+  * Confirming that everything is functional for release
 
 
