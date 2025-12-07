@@ -39,16 +39,16 @@ So our GitHub repository includes the following files:
 
 # Our Project's timeline(TBD)
 * First Week
-  * 
-  * 
-  * 
+  * TBD
+  * TBD
+  * TBD
 * Second Week:
-  * 
-  * 
-  * 
+  * TBD
+  * TBD
+  * TBD
 * Third Week: 
-  * 
-  * 
-  * 
+  * TBD
+  * TBD
+  * TBD
 
 
