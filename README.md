@@ -39,17 +39,17 @@ So our GitHub repository includes the following files:
 
 # Our Project's timeline(TBD)
 * First week:
- *
- *
- *
+  *
+  *
+  *
 * Second week:
- *
- *
- *
+  *
+  *
+  *
 * Third week:
- *
- *
- *
+  *
+  *
+  *
 
 
 
