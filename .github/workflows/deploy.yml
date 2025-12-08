@@ -13,11 +13,16 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Copy website files to VPS
-        uses: appleboy/scp-action@v0.1.4
+      - name: Deploy website to Docker container via SSH
+        uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.VPS_IP }}
           username: debian
           password: ${{ secrets.VPS_PASSWORD }}
-          source: "website/*"
-          target: "/usr/share/nginx/html"
+          port: 22
+          script: |
+            cd ~/Deploying-A-Website-Unix--420-321-VA--Fall-2025
+            git pull origin main
+            sudo docker cp website/. unix-container:/usr/share/nginx/html/
+            sudo docker restart unix-container
+
