@@ -22,6 +22,32 @@ So the goal for this project is to essentially set up a Linux based web server h
 
 # What does our GitHub repository contain?:
 So our GitHub repository includes the following files:
-* CHOICES.md ---> this showcases the tools we used for this project and also includes reasoning to why we use it.
-* INSTALL.md ---> this file includes the the instructions needed/required to use our project
-* Our Github repository also includes our License. For more info on this, please refer to our License which is located at: [LICENSE](./LICENSE)
+* CHOICES.md ---> this file discusses the tools used such as:
+  * The use of OVH
+  * The use of NGINX
+  * Containers
+  * GitHub Actions
+* For more Information, please visit CHOICES.MD at: [CHOICES.md](./CHOICES.md)  
+
+* INSTALL.md ---> this file includes the instructions needed/required to use our project from:
+  * Installing our project
+  * Setting it up
+  * Manual Deployment Setup
+  * Auto Deoployment Setup
+* For more Information, please visit INSTALL.MD at: [INSTALL.md](./INSTALL.md)
+* Our Github repository also includes our License(MIT). For more Information, please visit our license at: [LICENSE](./LICENSE)
+
+# Our Project's timeline(TBD)
+* First Week
+  * Create our Git Repository with the necessary files needed
+  * Improve the content in files(CHOICES.md, INSTALL.md, ReadMe & License)
+  * Creating and using OVH account
+* Second Week:
+  * Connecting deployed website to our repository
+  * Provided HTML code for the Website's homepage
+  * Improve files such as ReadMe to follow the description of our project
+* Third Week: 
+  * Finalyzing/fixing any last issues
+  * Confirming that everything is functional for release
+
+
