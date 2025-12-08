@@ -1,0 +1,23 @@
+name: Deploy to VPS
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Copy website files to VPS
+        uses: appleboy/scp-action@v0.1.4
+        with:
+          host: ${{ secrets.VPS_IP }}
+          username: debian
+          password: ${{ secrets.VPS_PASSWORD }}
+          source: "website/*"
+          target: "/usr/share/nginx/html"
