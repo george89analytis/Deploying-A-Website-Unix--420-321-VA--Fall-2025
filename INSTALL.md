@@ -7,12 +7,12 @@
 # -SET UP THE SERVER-
   * update the server
   * sudo apt update && sudo apt upgrade
-# -install NGINX-
+# -INSTALL NGINX-
 * Install
   * sudo apt install nginx
 * move your website into NGINX
   *  sudo cp -r * /var/www/html/
-# -DEPLOY WEBSITE-   --manual deployment
+# -DEPLOY WEBSITE-
 * pull latest code
   * git pull
 * NGINX restart

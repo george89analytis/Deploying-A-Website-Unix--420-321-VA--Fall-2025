@@ -35,9 +35,10 @@ So our GitHub repository includes the following files:
   * Manual Deployment Setup
   * Auto Deoployment Setup
 * For more Information, please visit INSTALL.MD at: [INSTALL.md](./INSTALL.md)
-* Our Github repository also includes our License(MIT). For more Information, please visit our license at: [LICENSE](./LICENSE)
+* We also have our license stating what you can with our project but you have to keep the original copyright/license with no changes made to it.
+  * For more Information, please visit our license at: [LICENSE](./LICENSE)
 
-# Our Project's timeline(TBD)
+# Our Project's timeline
 * First Week
   * Create our Git Repository with the necessary files needed
   * Improve the content in files(CHOICES.md, INSTALL.md, ReadMe & License)
