@@ -8,4 +8,13 @@
 * NGINX is normally built for speed and efficiency, it's able to handle high traffic regardless if you have low CPU/Memory usage.
 * Other options such as Apache were more heavier and wasn't something we were aiming for.
 
-# Why Container
+# Why Containers
+* We used containers because:
+  * They are lightweight
+  * runs the same on any system
+  * portable
+* We did think about VMs but we saw that they used more resources and also take longer to manage
+
+# Why GitHub actions
+* GitHub Actions is a feature that automates deployment the second you push a block of code in which removes all the manual work to keep updates fast and consistent
+* Manual deployment was possible but it doesnt compare to having things updated faster
