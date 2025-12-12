@@ -43,8 +43,8 @@ This runs an NGINX web server inside a Docker container and exposes it to the in
 
 
 ## 7. Copy Website Files into the Container
--sudo docker cp website/. unix-container:/usr/share/nginx/html/
--sudo docker restart unix-container
+- sudo docker cp website/. unix-container:/usr/share/nginx/html/
+- sudo docker restart unix-container
 The website should now be accessible using the VPS IP address.
 
 
