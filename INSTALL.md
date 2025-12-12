@@ -1,3 +1,28 @@
+## How to Reproduce the Website Deployment
+
+This document explains how to reproduce the deployment of this project from scratch.
+The goal is to deploy a static website on a VPS using Docker, NGINX, and automatic
+updates from GitHub.
+
+---
+
+## 1. Create a VPS
+
+- Create a Virtual Private Server (VPS) with a public IP address
+- Use Debian Linux
+- Enable SSH access
+
+---
+
+## 2. Connect to the VPS
+
+From your local machine, connect to the server using SSH:
+
+```bash
+ssh debian@<VPS_IP>
+
+
+
 # All Commands in BASH
 # -INSTALL THE PROJECT-
 * Clone the repository
