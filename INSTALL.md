@@ -61,7 +61,7 @@ Restart SSH:
 
 ## 9. Configure GitHub Secrets
 In the GitHub repository:
-Settings → Secrets and variables → Actions
+Settings → Secrets and variables → Actions → New repository secret
 
 Add:
 VPS_IP        = VPS public IP
