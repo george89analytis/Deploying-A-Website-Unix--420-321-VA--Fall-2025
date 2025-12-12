@@ -19,26 +19,27 @@ This document explains how to set up and deploy the website from scratch.
 
 
 ## 3. Update the System
--sudo apt update && sudo apt upgrade -y
+- sudo apt update && sudo apt upgrade -y
 
 
 ## 4. Install Docker
--sudo apt install docker.io -y
--sudo systemctl start docker
--sudo systemctl enable docker
+- sudo apt install docker.io -y
+- sudo systemctl start docker
+- sudo systemctl enable docker
 
 Check installation:
--docker --version
+- docker --version
 
 
 ## 5. Create the NGINX Container
--sudo docker run -d -p 80:80 --name unix-container nginx
+- sudo docker run -d -p 80:80 --name unix-container nginx
 This runs an NGINX web server inside a Docker container and exposes it to the internet.
 
 
 ## 6. Clone the Repository on the VPS
--git clone https://github.com/username/repository-name.git
--cd repository-name
+- git clone https://github.com/username/repository-name.git
+
+- cd repository-name
 
 
 ## 7. Copy Website Files into the Container
@@ -50,12 +51,12 @@ The website should now be accessible using the VPS IP address.
 ## 8. Enable SSH Password Authentication
 GitHub Actions uses SSH with a password to connect to the VPS.
 Edit the SSH config:
--sudo nano /etc/ssh/sshd_config
+- sudo nano /etc/ssh/sshd_config
 Set:
 PasswordAuthentication yes
 
 Restart SSH:
--sudo systemctl restart ssh
+- sudo systemctl restart ssh
 
 
 ## 9. Configure GitHub Secrets
@@ -69,15 +70,15 @@ VPS_PASSWORD = VPS user password
 
 ## 10. Add the GitHub Actions Workflow
 Create the file:
--.github/workflows/deploy.yml
+- .github/workflows/deploy.yml
 This workflow connects to the VPS, pulls the latest code, copies the website into the container, and restarts it.
 
 
 ## 11. Automatic Deployment
 To deploy updates:
--git add .
--git commit -m "Update website"
--git push origin main
+- git add .
+- git commit -m "Update website"
+- git push origin main
 Any push to main automatically updates the live website.
 
 
